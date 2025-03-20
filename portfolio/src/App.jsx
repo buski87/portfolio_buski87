@@ -2,7 +2,7 @@ function App() {
   return (
     
       <div>
-        <span>¡Hola, funciona! 🚀
+        <span className="text-3xl font-bold underline">¡Hola, funciona! 🚀
           
         </span>
       </div>
