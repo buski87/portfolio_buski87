@@ -21,10 +21,10 @@ const Header = ({ toggleTheme, isDark }) => {
       {/* Menú */}
       <nav className="flex-1 flex justify-center">
         <ul className="flex space-x-8 text-lg">
-          <li><a href="#about" className="hover:text-blue-400">Sobre mí</a></li>
-          <li><a href="#experience" className="hover:text-blue-400">Experiencia</a></li>
-          <li><a href="#projects" className="hover:text-blue-400">Proyectos</a></li>
-          <li><a href="#contact" className="hover:text-blue-400">Contacto</a></li>
+          <li><a href="#about" className="hover:text-orange-400">Sobre mí</a></li>
+          <li><a href="#experience" className="hover:text-orange-400">Experiencia</a></li>
+          <li><a href="#projects" className="hover:text-orange-400">Proyectos</a></li>
+          <li><a href="#contact" className="hover:text-orange-400">Contacto</a></li>
         </ul>
       </nav>
 

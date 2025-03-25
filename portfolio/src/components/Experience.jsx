@@ -20,16 +20,21 @@ const Experience = () => {
             <p className="text-gray-700 dark:text-gray-300 mt-2">
               Durante casi 6 años, mis funciones y responsabilidades fueron:
               <ul className="list-disc list-inside mt-2 space-y-1">
-                <li>Implementar diseños siguiendo especificaciones de UI/UX.</li>
+                <li>Implementar diseños siguiendo especificaciones de UI/UX, garantizando una experiencia de usuario fluida.</li>
+                <li>Desarrollar landing pages para distintos sitios web, enfocadas en promociones eventuales, lanzamientos de productos y sorteos, optimizando la conversión y captación de leads.</li>
                 <li>Desarrollar landing pages para promociones y lanzamientos.</li>
                 <li>Optimizar el rendimiento y la accesibilidad web.</li>
-                <li>Escribir código limpio en JS, TS, HTML y CSS.</li>
-                <li>Desarrollar UIs interactivas con React y Next.js.</li>
-                <li>Trabajar con metodologías ágiles y Git.</li>
+                <li>Colaborar con diseñadores, desarrolladores backend para definir y mejorar funcionalidades y mejorar la experiencia del usuario.</li>
+                <li>Coordinarse con otros departamentos, como marketing, ventas y atención al cliente, para garantizar que las soluciones digitales cumplan con los objetivos del negocio.</li>
+                <li>Escribir código limpio, modular y reutilizable utilizando JavaScript, TypeScript, HTML y CSS (Tailwind, SCSS, Bootstrap)</li>
+                <li>Desarrollar interfaces de usuario interactivas y responsive con React.js y Next.js.</li>
+                <li>Aplicar metodologías ágiles (Scrum) y utilizar herramientas de control de versiones como Git y GitHub/GitLab.</li>
                 <li>Colaborar con marketing, ventas y atención al cliente.</li>
-                <li>Diseñar emails responsivos en MJML/HTML/CSS.</li>
-                <li>Integrar herramientas como Mailchimp, Salesforce o Splio.</li>
-                <li>Trabajar con bases de datos como MySQL, MongoDB y Firebase.</li>
+                <li>Diseñar y desarrollar plantillas de email responsivas con HTML, CSS y MJML.</li>
+                <li>Integrar campañas de email marketing con herramientas como Mailchimp, Selligent, Salesforce o Splio.</li>
+                <li>Implementar formularios de suscripción y estrategias de automatización para captación de leads.</li>
+                <li>Gestionar bases de datos de clientes y usuarios en MySQL, MongoDB o Firebase, asegurando la integridad y optimización de los datos.</li>
+                <li>Desarrollar y optimizar consultas SQL para la extracción y análisis de datos.</li>
               </ul>
             </p>
           </div>

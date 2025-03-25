@@ -62,6 +62,57 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
+           {/* Proyecto 2 */}
+           <div className="mt-10 bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md flex flex-col md:flex-row md:items-start gap-6">
+          {/* Imagen más pequeña a la izquierda */}
+          <div className="w-full md:w-auto flex-shrink-0">
+            <img
+              src="/proyectos/babymove-preview.jpg"
+              alt="BabyMove Landing Page"
+              className="rounded-lg shadow-lg w-full max-w-[150px] md:max-w-[200px]"
+            />
+          </div>
+
+          {/* Texto y contenido a la derecha */}
+          <div className="w-full">
+            <h3 className="text-2xl font-bold text-orange-500 dark:text-orange-400">
+               Landing Page
+            </h3>
+            <p className="text-gray-700 dark:text-gray-300 mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, non dolor. Natus consectetur ea est non, consequuntur aperiam voluptatibus ipsa soluta necessitatibus, rerum atque corrupti quasi eos ad repellat incidunt?
+            </p>
+
+            {/* Tecnologías usadas */}
+            <div className="flex flex-wrap mt-4 gap-2">
+              {[
+                "React",
+                "Vite",
+                "Tailwind CSS",
+                "EmailJS",
+                "Framer Motion",
+                "LocalStorage",
+                "React Router"
+              ].map((tech) => (
+                <span key={tech} className="bg-gray-200 text-black dark:bg-gray-700 dark:text-white px-3 py-1 rounded-md text-sm">
+                  {tech}
+                </span>
+              ))}
+            </div>
+
+            {/* Enlace al proyecto */}
+            <div className="mt-4">
+              <a
+                href="https://babymove-five.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 dark:text-blue-400 hover:underline"
+              >
+                🔗 Ver proyecto en línea
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
