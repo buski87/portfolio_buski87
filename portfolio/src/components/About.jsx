@@ -1,3 +1,4 @@
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 const About = () => {
   return (
     <section
@@ -15,23 +16,28 @@ const About = () => {
         </p>
 
         {/* Redes sociales */}
-        <div className="flex justify-center mt-8 space-x-6">
+        <div className="flex justify-center mt-8 space-x-6 text-2xl">
           <a
             href="https://www.linkedin.com/in/pere-busquet-garcia-cascon/"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition"
           >
-            <img src="/linkedin.svg" alt="LinkedIn" className="w-8 h-8" />
+            <FaLinkedin />
           </a>
           <a
             href="https://github.com/buski87"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-gray-600 dark:text-gray-300 hover:text-green-600 transition"
           >
-            <img src="/github.svg" alt="GitHub" className="w-8 h-8" />
+            <FaGithub />
           </a>
-          <a href="mailto:perebusquet87@gmail.com">
-            <img src="/email.svg" alt="Email" className="w-8 h-8" />
+          <a
+            href="mailto:perebusquet87@gmail.com"
+            className="text-gray-600 dark:text-gray-300 hover:text-red-500 transition"
+          >
+            <FaEnvelope />
           </a>
         </div>
       </div>

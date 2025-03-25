@@ -13,11 +13,11 @@ const Projects = () => {
         {/* Proyecto BabyMove */}
         <div className="mt-10 bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md flex flex-col md:flex-row md:items-start gap-6">
           {/* Imagen más pequeña a la izquierda */}
-          <div className="w-full md:w-auto">
+          <div className="w-full md:w-auto flex-shrink-0">
             <img
               src="/proyectos/babymove-preview.jpg"
               alt="BabyMove Landing Page"
-              className="rounded-lg shadow-lg w-full max-w-xs md:max-w-sm"
+              className="rounded-lg shadow-lg w-full max-w-[150px] md:max-w-[200px]"
             />
           </div>
 
